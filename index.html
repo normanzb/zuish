@@ -438,6 +438,11 @@
         -moz-writing-mode: vertical-rl;
         -o-writing-mode: vertical-rl;
 
+        -o-text-orientation: upright;
+        -moz-text-orientation: upright;
+        -webkit-text-orientation: upright;
+        text-orientation: upright;
+
         max-height: 400px;
     }
 
@@ -464,6 +469,35 @@
     {
         vertical-align: middle;
     }
+
+    .main blockquote:before
+    {
+        content: '“';
+        font-size: 1em;
+    }
+
+    .main blockquote:after
+    {
+        content: '”';
+        font-size: 1em;
+    }
+
+    .main blockquote.vrtc:before
+    {
+        -o-text-orientation: sideways-right;
+        -moz-text-orientation: sideways-right;
+        -webkit-text-orientation: sideways-right;
+        text-orientation: sideways-right;
+    }
+
+    .main blockquote.vrtc:after
+    {
+        -o-text-orientation: sideways-right;
+        -moz-text-orientation: sideways-right;
+        -webkit-text-orientation: sideways-right;
+        text-orientation: sideways-right;
+    }
+
     </style>
     <link rel="stylesheet" href="./css/zuish-regular.css">
 </head>
@@ -491,11 +525,11 @@
             </blockquote>
 
             <blockquote>
-                "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
+                THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
             </blockquote>
 
             <blockquote class="zu vrtc">
-                "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG. "
+                THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
             </blockquote>
         </p>
 
