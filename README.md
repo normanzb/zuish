@@ -7,3 +7,7 @@ Modified based on <http://www.dafont.com/zuish.font> and <http://fontstruct.com/
 
 
 Visit <http://normanzb.github.io/zuish/> for more info.
+
+##License
+
+Retro style font is licensed under http://creativecommons.org/licenses/by-sa/3.0/
